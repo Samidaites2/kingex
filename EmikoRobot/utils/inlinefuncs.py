@@ -115,21 +115,21 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     ubot_state = "Dead" if not await ubot2.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main bot", url="https://t.me/EmiexRobot"),
+        InlineKeyboardButton("Main bot", url="https://t.me/De_xrobot"),
         InlineKeyboardButton(
             "Go Inline!", switch_inline_query_current_chat=""
         ),
     )
 
     msg = f"""
-**[Emiko Robot ❤️](https://t.me/emikosupport):**
+**[ᴍɪᴅɪ ʀᴏɴᴏᴛ ❤️](https://t.me/Banned_33):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [UBOT](t.me/excrybaby)
+**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [OWNER](t.me/Baned_5)
 """
     answers.append(
         InlineQueryResultArticle(
@@ -434,7 +434,7 @@ async def tg_search_func(answers, text, user_id):
 
 async def music_inline_func(answers, query):
     chat_id = -1001445180719
-    group_invite = "https://t.me/joinchat/vSDE2DuGK4Y4Nzll"
+    group_invite = "https://t.me/Banned_33"
     try:
         messages = [
             m
